@@ -1,0 +1,16 @@
+/* Unidades Absolutas (px, cm, pt) y Relativas (%, rem, vw, vh) de tus apuntes */
+
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2cm;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5cm;
+    color: #333;
+    margin-top: 20px;
+}
+

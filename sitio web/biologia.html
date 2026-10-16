@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biología - Registro de Campo</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <header>
+        <h1>Biología: Registro de Observación de Campo</h1>
+        <a href="index.html" class="boton-volver">← Volver al Portal Principal</a>
+    </header>
+
+    <main>
+        <section class="caja-seccion">
+            <h2>Formulario de Registro de Biólogo</h2>
+            <p>Ingresa tus datos para registrar una nueva especie observada:</p>
+
+            <form method="get" name="datos">
+                
+                <label for="Nombre">Escribe tu Nombre:</label><br>
+                <input type="text" name="Nombre" id="Nombre" maxlength="40"><br><br>
+
+                <label for="paterno">Escribe tus apellidos:</label><br>
+                <input type="text" name="paterno" id="M"><br><br>
+
+                <label for="color_fav">Selecciona tu color favorito:</label><br>
+                <input type="color" name="color_fav" id="color_fav"><br><br>
+
+                <label for="Edad">Escribe tu edad:</label><br>
+                <input type="number" name="Edad" id="Edad"><br><br>
+
+                <label for="correo">Correo de contacto:</label><br>
+                <input type="email" name="correo" id="correo"><br><br>
+
+                <label for="pass">Contraseña:</label><br>
+                <input type="password" name="Contraseña" id="pass"><br><br>
+
+                <input type="submit" value="enviar datos"><br><br>
+                <input type="reset" value="limpiar">
+
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
